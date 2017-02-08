@@ -18,7 +18,7 @@ Open your terminal, navigate to this folder and run `./run.sh`. That's it!
 
 ### Windows
 
-On Windows, copy the *index.php* and *composer.json* to the web server root you usually use and run `composer install`. Now go to your webbrowser and open the `index.php` file.
+On Windows, copy *index.php* and *composer.json* to the web server root you usually use and run `composer install`. Open the index.php path in your web browser.
 
 ## Next steps
 
