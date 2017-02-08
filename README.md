@@ -1,4 +1,4 @@
-# Welcome to your Contentful PHP Boilerplate
+# Welcome to the PHP Boilerplate
 
 To use this boilerplate you need to have PHP 5.5.9 or newer. On Windows you also need to have [composer](https://getcomposer.org) installed.
 
