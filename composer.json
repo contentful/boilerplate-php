@@ -2,6 +2,6 @@
   "type": "project",
   "require": {
     "php": "^5.5.9|^7.0",
-    "contentful/contentful": "~0.6.5-beta@beta"
+    "contentful/contentful": "^1.1"
   }
 }
