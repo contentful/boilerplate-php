@@ -13,8 +13,7 @@ $entries = $client->getEntries();
 
 if (count($entries) === 0) {
     echo "Ups, you got no entries in your space. How about creating some?<br />";
-}
-else {
+} else {
     echo "You have entries with these IDs:<br />";
     foreach ($entries as $entry) {
         echo $entry->getId() . "<br />";
