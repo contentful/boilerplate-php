@@ -6,8 +6,8 @@ To use this boilerplate you need to have PHP 5.5.9 or newer. On Windows you also
 
 Clone the project using the following command:
 
-```bash
-git clone https://github.com/contentful/boilerplate-javascript.git
+``` bash
+git clone https://github.com/contentful/boilerplate-php.git
 ```
 
 ## Start the project
