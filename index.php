@@ -12,10 +12,10 @@ $client = new Client($accessToken, $spaceID);
 $entries = $client->getEntries();
 
 if (count($entries) === 0) {
-    echo "Ups, you got no entries in your space. How about creating some?<br />";
+    echo "Ups, you got no entries in your space. How about creating some?<br />\n";
 } else {
-    echo "You have entries with these IDs:<br />";
+    echo "You have entries with these IDs:<br />\n";
     foreach ($entries as $entry) {
-        echo $entry->getId() . "<br />";
+        echo $entry->getId()."<br />\n";
     }
 }
