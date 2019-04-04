@@ -7,12 +7,15 @@ require_once __DIR__ . '/vendor/autoload.php';
 $spaceID = 'cfexampleapi';
 $accessToken = 'b4c0n73n7fu1';
 
+// Feel free to customize this snippet as much as you like.
+// To learn more, check out our PHP Tutorials and Integrations: https://www.contentful.com/developers/docs/php/
+
 $client = new Client($accessToken, $spaceID);
 
 $entries = $client->getEntries();
 
 if (count($entries) === 0) {
-    echo "Ups, you got no entries in your space. How about creating some?<br />\n";
+    echo "Opps, you do not have entries in your space. How about creating some?<br />\n";
 } else {
     echo "You have entries with these IDs:<br />\n";
     foreach ($entries as $entry) {

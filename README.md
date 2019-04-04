@@ -1,6 +1,6 @@
 # Welcome to the PHP Boilerplate
 
-To use this boilerplate you need to have PHP 5.6 or newer. On Windows you also need to have [composer](https://getcomposer.org) installed.
+To use this boilerplate you need to have PHP 7.0 or newer. On Windows you also need to have [composer](https://getcomposer.org) installed.
 
 ## Get the code
 
@@ -15,6 +15,13 @@ git clone https://github.com/contentful/boilerplate-php.git
 ### macOS / Linux
 
 Open your terminal, navigate to this folder and run `./run.sh`. That's it!
+
+### To run from CLI
+
+```
+composer install
+php index.php
+```
 
 ### Windows
 
