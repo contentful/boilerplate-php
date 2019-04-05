@@ -16,13 +16,6 @@ git clone https://github.com/contentful/boilerplate-php.git
 
 Open your terminal, navigate to this folder and run `./run.sh`. That's it!
 
-### To run from CLI
-
-```
-composer install
-php index.php
-```
-
 ### Windows
 
 On Windows, copy *index.php* and *composer.json* to the web server root you usually use and run `composer install`. Open the *index.php* path in your web browser.
