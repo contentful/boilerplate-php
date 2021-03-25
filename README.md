@@ -1,6 +1,6 @@
 # Welcome to the PHP Boilerplate
 
-To use this boilerplate you need to have PHP 7.0 or newer. On Windows you also need to have [composer](https://getcomposer.org) installed.
+To use this boilerplate you need to have PHP 7.2 or newer (PHP8 is supported as well). On Windows you also need to have [composer](https://getcomposer.org) installed.
 
 ## Get the code
 
