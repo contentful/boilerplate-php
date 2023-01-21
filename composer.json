@@ -1,7 +1,7 @@
 {
     "type": "project",
     "require": {
-        "php": "^7.2|^8.0",
-        "contentful/contentful": "^6.0"
+        "php": "^8.0",
+        "contentful/contentful": "^7.0"
     }
 }

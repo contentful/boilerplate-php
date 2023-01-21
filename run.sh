@@ -13,13 +13,13 @@ NC='\033[0m' # No Color
 
 function checkPhp {
   if ! hash php 2>/dev/null; then
-    echo "It appears you don't have PHP installed. Please install PHP 7.2 or newer and try again."
+    echo "It appears you don't have PHP installed. Please install PHP 8.0 or newer and try again."
     exit 1;
   fi
 
   PHP_VERSION_ID=$(php -r "echo PHP_VERSION_ID;")
-  if ! [[ ${PHP_VERSION_ID} > 70200 ]] ; then
-    echo "The installed version of PHP is not compatible with the Contentful PHP SDK. Please update to PHP 7.2 or newer and try again."
+  if ! [[ ${PHP_VERSION_ID} > 80000 ]] ; then
+    echo "The installed version of PHP is not compatible with the Contentful PHP SDK. Please update to PHP 8.0 or newer and try again."
     exit 1;
   fi
 }
