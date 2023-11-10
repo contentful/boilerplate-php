@@ -17,7 +17,7 @@ metadata:
     - tier-1
 spec:
   #cli, component, contentful.com/template, documentation, function, library, service, template, website
-  type: contentful.com/template 
+  type: template
   #deprecated, experimental, production, unknown
   lifecycle: production  
   system: any
