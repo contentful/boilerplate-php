@@ -3,18 +3,18 @@
 
 apiVersion: backstage.io/v1alpha1
 # Component, API, Template, Group, User, Resource, System, Domain, Location
-kind: API
+kind: Component
 metadata:
   name: boilerplate-php 
   description: An example app to get started with using the Contentful PHP SDK.
   annotations:
     github.com/project-slug: contentful/boilerplate-php 
-    contentful.com/service-tier: "1" #1, 2, 3, 4
+    contentful.com/service-tier: "unknown" #1, 2, 3, 4
 
   tags:
     - sast-disabled
     #make this match the value from service-tier above
-    - tier-1
+    - tier-unknown
 spec:
   #cli, component, contentful.com/template, documentation, function, library, service, template, website
   type: template
