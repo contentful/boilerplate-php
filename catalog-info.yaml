@@ -1,0 +1,25 @@
+# Backstage documentation
+# https://backstage.io/docs/features/software-catalog/descriptor-format/
+
+apiVersion: backstage.io/v1alpha1
+# Component, API, Template, Group, User, Resource, System, Domain, Location
+kind: Component
+metadata:
+  name: boilerplate-php 
+  description: An example app to get started with using the Contentful PHP SDK.
+  annotations:
+    github.com/project-slug: contentful/boilerplate-php 
+    contentful.com/service-tier: "unknown" #1, 2, 3, 4
+
+  tags:
+    - sast-disabled
+    #make this match the value from service-tier above
+    - tier-unknown
+spec:
+  #cli, component, contentful.com/template, documentation, function, library, service, template, website
+  type: template
+  #deprecated, experimental, production, unknown
+  lifecycle: production  
+  system: any
+  # your team name as it appears in github when tagging them for reviews
+  owner: group:team-developer-experience
